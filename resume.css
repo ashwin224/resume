@@ -17,20 +17,21 @@ body {
 
 .profile_text .imgBx {
     position: relative;
-    width: 200px;
+    ;
+    width: 180px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
+    border: 1px rgb(0, 0, 0) solid;
 }
 
 .profile_text .imgBx img {
     position: absolute;
-    top: 0;
-
-    right: 1px;
-    width: 100%;
+    top: 0px;
+    left: 0px; right: 1px;
+    width: 180px;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .profile_text h2 {
@@ -53,7 +54,7 @@ body {
     width: 100%;
     max-width: 1000px;
     min-height: 1200px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(138, 135, 135);
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin: 50px;
@@ -69,22 +70,31 @@ body {
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: rgb(116, 84, 197);
+    color: blueviolet;
 }
 
 .contact_info ul li {
     position: relative;
     list-style: none;
-   margin-left: -10px;
+    margin-left: -10px;
     cursor: pointer;
 }
-.contact_info ul li span {color: white;font-weight: 300;;}
 
-
-.contact_info {    border-bottom: 1px solid gray;
-    
+.contact_info ul li span {
+    color: white;
+    font-weight: 300;
+    ;
 }
-.edu{border-bottom: 1px solid gray;}
+
+
+.contact_info {
+    border-bottom: 1px solid gray;
+
+}
+
+.edu {
+    border-bottom: 1px solid gray;
+}
 
 .title {
     color: white;
@@ -107,3 +117,5 @@ body {
     background-color: rgb(212, 203, 203);
     padding: 40px;
 }
+
+.right_side p span{margin-left: 130px;}
